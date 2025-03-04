@@ -25,6 +25,9 @@ This crate offers the following features:
 * `duktape`: Use [duktape](https://crates.io/crates/ducc) as the JS backend. You need to disable the default features to enable this backend.
 * `wasm-js`: Use [wasm-bindgen](https://crates.io/crates/wasm-bindgen) and [js-sys](https://crates.io/crates/js-sys) as the JS backend. You need to disable the default features to enable this backend.
 
+### Notice
+For the output to render correctly, your HTML target must include the `katex.css` or `katex.min.css` stylesheet (but need not include the `katex.js` script). See the [KaTeX](https://katex.org/docs/browser) documentation for details.
+
 ## Examples
 
 ```rust
